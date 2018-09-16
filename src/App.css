@@ -2,6 +2,7 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 10pt;
 }
 .nav{
     background-color: #088d13;
@@ -98,6 +99,13 @@ hi a{
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.2s;
 }
+
+section {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    background-color: #329675;
+    width: 98%;
 
 .main-nav li a:hover,
 .main-nav li a:active {
