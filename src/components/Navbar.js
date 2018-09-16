@@ -5,16 +5,16 @@ class Navbar extends Component{
         return(
             <div>
             <div className="row nav">
-                <h1>WICOM BY ANDELA TEAM</h1>
-                <ul class="main-nav">
+                <h1><a style={{color: "#fff", fontSize: "16px", fontWeight: "bolder"}} href={"/"}>WICOM BY ANDELA TEAM</a></h1>
+                <ul className="main-nav">
                     <li><a href="!#">Report</a></li>
                     <li><a href="/contact">Contact</a></li>
                     <li><a href="/home">Get started</a></li>
                     <li><a href="/">About</a></li>
 
                 </ul>
-                <div class="form-group col-md-4 search-bar">
-    <input class="form-control" type="search" value="search" id="example-search-input"/>
+                <div className="form-group col-md-4 search-bar">
+    <input className="form-control" type="search" value="search" id="example-search-input"/>
         </div>
                 </div>
                 </div>

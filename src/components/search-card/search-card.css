@@ -52,9 +52,6 @@
     }
 }
 
-.search-cards {
-    margin-top: 210px;
-}
 .search-cards p, .search-cards h5 {
     font-weight: bold;
 }
@@ -68,4 +65,8 @@ i.code {
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
+}
+
+ol li {
+    margin-left: 2em;
 }

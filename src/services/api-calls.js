@@ -6,9 +6,9 @@ var citesLegislation = (animal_id) => {
       'X-Authentication-Token': 'Ke8QltCkeS3LRyvav4FrrQtt'
     };
     animal_id = 4521;
-    return axios.get(process.env.REACT_APP_API_URL+'/api/v1/taxon_concepts/'+animal_id+'/cites_legislation', {headers: headers})
+    return axios.get('https://api.speciesplus.net/api/v1/taxon_concepts/'+animal_id+'/cites_legislation', {headers: headers})
     .then((res) => {
-      console.log(res.data)
+      console.log(res.data);
     })
   };
 

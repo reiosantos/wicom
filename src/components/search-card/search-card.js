@@ -1,8 +1,15 @@
 import * as React from "react";
 import "./search-card.css";
+import citesLegislation from "../../services/api-calls";
 
 
 class SearchCard extends React.Component{
+
+    get_animal() {
+        citesLegislation(4387);
+        console.log(this.props);
+        window.location.href = "/laws";
+    }
 
     render () {
         return (
@@ -26,7 +33,7 @@ class SearchCard extends React.Component{
                             <li>DR. Congo</li>
                         </ol>
 
-                        <a href="" className="btn btn-primary">Learn More...</a>
+                        <button onClick={() => this.get_animal()} className="btn btn-primary">Learn More...</button>
                     </div>
 
             </div>

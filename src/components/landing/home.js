@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import SearchCard from '../search-card/search-card';
-import Searchbar from '../search-bar/search-bar';
+import SearchBar from "../search-bar/search-bar";
 
 class Home extends Component {
   render() {
     return (
         <div className={"container-fluid"}>
-<Searchbar/>
+            <SearchBar/>
             <div className={"row search-cards"}>
                 <div className={"col-sm-6"}>
                     <SearchCard
