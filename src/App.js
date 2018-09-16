@@ -1,32 +1,23 @@
 import React, { Component } from 'react';
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import './App.css';
-import SearchBar from "./components/search-bar/search-bar";
-import FilterPop from "./components/filter-pop/filter-pop";
-import Header from "./components/header/header";
-import SearchCard from "./components/search-card/search-card";
+import Landing from '../src/components/Landing';
+import Navbar from '../src/components/Navbar';
+import Contact from '../src/components/contact';
+
 
 class App extends Component {
   render() {
     return (
-        <div className={"container"}>
-            <section>
-                <Header/>
-                <SearchBar/>
-                <FilterPop/>
-            </section>
-            <div className={"search-cards"}>
-                <SearchCard/>
-                <SearchCard/>
-                <SearchCard/>
-                <SearchCard/>
-                <SearchCard/>
-                <SearchCard/>
-                <SearchCard/>
-                <SearchCard/>
-                <SearchCard/>
-
-            </div>
+        <BrowserRouter>
+        <div>
+        <Navbar/>
+        <Switch>
+            <Route exact path="/" component={Landing}/>
+            <Route exact path="/contact" component={Contact}/>
+         </Switch>
         </div>
+        </BrowserRouter>
     );
   }
 }
