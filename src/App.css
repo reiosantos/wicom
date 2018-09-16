@@ -100,13 +100,13 @@ hi a{
     transition: border-bottom 0.2s;
 }
 
-section {
+/* section {
     z-index: 999;
     position: fixed;
     top: 0;
     background-color: #329675;
     width: 98%;
-
+} */
 .main-nav li a:hover,
 .main-nav li a:active {
   border-bottom: 2px solid #0d0e0d;
