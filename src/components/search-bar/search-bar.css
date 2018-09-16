@@ -1,0 +1,35 @@
+.search input{
+    clear: both;
+}
+.search input {
+    width: 90%;
+    margin: .5em;
+    padding: .5em;
+    border-radius: 2px;
+    height: 2em;
+    font-size: 15pt;
+    border: 0 #21968b;
+}
+.search input:hover {
+    border-color: red;
+}
+.search {
+    text-align: center;
+    border-radius: 2px;
+    border: none;
+    outline: none 0;
+}
+
+.search .buttons{
+    padding: .2em;
+    display: table-cell;
+    float: left;
+}
+.search .buttons button{
+    margin: .2em;
+    border: 2px none;
+    border-radius: 2px;
+}
+.search .buttons{
+    margin-left: 40px;
+}
