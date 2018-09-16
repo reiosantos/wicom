@@ -5,6 +5,7 @@ import Landing from '../src/components/Landing';
 import Navbar from '../src/components/Navbar';
 import Contact from '../src/components/contact';
 import Home from './components/landing/home';
+import Laws from './components/laws/laws';
 
 
 class App extends Component {
@@ -17,6 +18,7 @@ class App extends Component {
             <Route exact path="/" component={Landing}/>
             <Route exact path="/home" component={Home}/>
             <Route exact path="/contact" component={Contact}/>
+            <Route exact path="/laws" component={Laws}/>
          </Switch>
         </div>
         </BrowserRouter>
