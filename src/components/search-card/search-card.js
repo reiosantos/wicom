@@ -32,7 +32,6 @@ class SearchCard extends React.Component{
                     </div>
 
 
-
         );
     }
 }
