@@ -8,7 +8,7 @@ class SearchCard extends React.Component{
         return (
             <div className={"card z-depth-3"}>
                 <div className={"card-content"}>
-                    <img src={"https://material-ui.com/static/images/cards/contemplative-reptile.jpg"} width={200} />
+                    <img src={"https://material-ui.com/static/images/cards/contemplative-reptile.jpg"} alt="card" width={200} />
 
                 </div>
                 <div className={"card-content text"}>

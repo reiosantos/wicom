@@ -15,8 +15,8 @@ class Landing extends Component{
                 <header>
         <div class="hero-text-box">
         <h2>Conserve our wildlife. <br/>Eradicate wildlife trafficking.</h2>
-        <a class="btn btn-full" href="!#">Get started</a>
-        <a class="btn btn-ghost" href="!#">Tour the site</a>
+        <a class="btn btn-full" href="/card">Get started</a>
+        <a class="btn btn-ghost" href="/card">Tour the site</a>
         </div>
         </header>
       <h3><strong>Have a tour and see some animals in the wildlife</strong></h3>
