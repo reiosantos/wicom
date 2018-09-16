@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import './App.css';
-import SearchBar from "./components/search-bar/search-bar";
-import Header from "./components/header/header";
-import SearchCard from "./components/search-card/search-card";
+import Landing from '../src/components/Landing';
+import Navbar from '../src/components/Navbar';
+import Contact from '../src/components/contact';
+import Home from './components/landing/home';
+
 
 class App extends Component {
   render() {
@@ -12,6 +15,7 @@ class App extends Component {
         <Navbar/>
         <Switch>
             <Route exact path="/" component={Landing}/>
+            <Route exact path="/home" component={Home}/>
             <Route exact path="/contact" component={Contact}/>
          </Switch>
         </div>

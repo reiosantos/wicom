@@ -5,8 +5,7 @@ export default class SearchBar extends React.Component{
     render() {
         return (
             <div className={"search"}>
-                <input type={"text"} placeholder={"search animal"} />
-
+                <input type={"text"} placeholder={"Filter animal by:"} />
                 <div className={"buttons dropdown"}>
                     <button className="btn dropdown-toggle" type="button" id="dropdownMenuButton"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

@@ -10,7 +10,7 @@ class Navbar extends Component{
                     <li><a href="!#">About</a></li>
                     <li><a href="!#">Report</a></li>
                     <li><a href="/contact">Contact</a></li>
-                    <li><a href="!#">Get started</a></li>
+                    <li><a href="/home">Get started</a></li>
                 </ul>
                 <div class="form-group col-md-4 search-bar">
     <input class="form-control" type="search" value="search" id="example-search-input"/>
