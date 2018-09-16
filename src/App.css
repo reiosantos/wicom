@@ -7,6 +7,12 @@
 .nav{
     background-color: #088d13;
 }
+.nav-link{
+    color: white;
+}
+.laws{
+    margin: 10px;
+}
 header{
     background: linear-gradient(rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.356)),url(./images/bg.jpg);
     height: 100vh;
